@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import QuestionPreview from "./QuestionPreview";
+import "./QuestionPreview";
+import { Link } from "react-router-dom";
+import questions from "./questions.js";
 function App() {
+  const questionDetails = [questions[1], questions[2], questions[3]];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="questionCards">
+        <QuestionPreview questionDetails={questionDetails} />
+      </div>
+      <Link to="/allQuestions">All Questions</Link>
+    </>
   );
 }
 

@@ -1,0 +1,57 @@
+.question {
+  font-weight: bold;
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("./Comfortaa-VariableFont_wght.ttf") format("ttf");
+  padding-bottom: 0.5rem;
+  font-size: larger;
+}
+.answerPreview {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #737373;
+}
+.questionPreview {
+  color: black;
+  width: 60vw;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 11px 11px 22px #e8e8e8, -11px -11px 22px #e8e8e8;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.statistics {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vote {
+  display: flex;
+  align-items: center;
+}
+.upvote {
+  padding: 0 0.25rem 0 0;
+  color: blue;
+}
+
+.downvote {
+  padding: 0 0.25rem 0 0;
+  color: red;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+.commentIcon {
+  padding: 0 0.25rem 0 0;
+}

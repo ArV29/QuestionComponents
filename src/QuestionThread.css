@@ -1,0 +1,31 @@
+.question {
+  font-weight: bold;
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("./Comfortaa-VariableFont_wght.ttf") format("ttf");
+  padding-bottom: 0.5rem;
+  font-size: larger;
+}
+
+.answer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #737373;
+}
+
+.questionThread {
+  width: 60vw;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 11px 11px 22px #e8e8e8, -11px -11px 22px #e8e8e8;
+}
+.commentThread {
+  margin-left: 0;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 28px;
+  background: #e0e0e0;
+  box-shadow: inset 32px 32px 100px #c5c5c5, inset -32px -32px 100px #fbfbfb;
+}
